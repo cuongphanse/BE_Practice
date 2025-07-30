@@ -10,6 +10,7 @@ namespace BE30072025.ConsoleApp
 	{
 		static void Main(string[] args)
 		{
-		}
+			Console.WriteLine("Xin chao");
+		}	
 	}
 }
