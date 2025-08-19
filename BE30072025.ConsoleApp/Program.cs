@@ -7,57 +7,67 @@ namespace BE30072025.ConsoleApp
 		static void Main(string[] args)
 		{
 			Console.OutputEncoding = System.Text.Encoding.UTF8;
+			DataAccess.Bai1 bai1 = new DataAccess.Bai1();
+			DataAccess.Bai2 bai2 = new DataAccess.Bai2();
 
-			// Nhập số thứ nhất
-			Console.Write("Nhập số thứ nhất: ");
-			var input1 = Console.ReadLine();
-			var isNumber1 = int.TryParse(input1, out int number1);
-			if (!isNumber1)
+			while (true) // Menu chính
 			{
-				Console.WriteLine("Giá trị nhập vào không hợp lệ!");
-				return;
+				Console.WriteLine("\n===== MENU CHÍNH =====");
+				Console.WriteLine("1. Tính toán cơ bản");
+				Console.WriteLine("2. Bài toán số (giai thừa, nguyên tố, chẵn/lẻ)");
+				Console.WriteLine("0. Thoát");
+				Console.Write("Chọn chức năng: ");
+				var choice = Console.ReadLine();
+
+				switch (choice)
+				{
+					case "1":
+						bai1.Run(); 
+						break;
+					case "2":
+						SubMenu(bai2); // gọi menu con
+						break;
+					case "0":
+						Console.WriteLine("Thoát chương trình...");
+						return; // thoát hẳn
+					default:
+						Console.WriteLine("Lựa chọn không hợp lệ!");
+						break;
+				}
 			}
+		}
 
-			// Nhập số thứ hai
-			Console.Write("Nhập số thứ hai: ");
-			var input2 = Console.ReadLine();
-			var isNumber2 = int.TryParse(input2, out int number2);
-			if (!isNumber2)
+		// Menu con cho Bai2
+		static void SubMenu(DataAccess.Bai2 bai2)
+		{
+			while (true)
 			{
-				Console.WriteLine("Giá trị nhập vào không hợp lệ!");
-				return;
-			}
+				Console.WriteLine("\n===== MENU BÀI TOÁN SỐ =====");
+				Console.WriteLine("1. Tính giai thừa");
+				Console.WriteLine("2. Kiểm tra số nguyên tố");
+				Console.WriteLine("3. Kiểm tra chẵn/lẻ");
+				Console.WriteLine("0. Quay lại menu chính");
+				Console.Write("Chọn chức năng: ");
+				var subChoice = Console.ReadLine();
 
-			// Menu chọn phép toán
-			Console.WriteLine("\nChọn phép toán:");
-			Console.WriteLine("1. Cộng (+)");
-			Console.WriteLine("2. Trừ (-)");
-			Console.WriteLine("3. Nhân (*)");
-			Console.WriteLine("4. Chia (/)");
-			Console.Write("Nhập lựa chọn (1-4): ");
-			var choice = Console.ReadLine();
-
-			// Thực hiện phép toán theo lựa chọn
-			switch (choice)
-			{
-				case "1":
-					Console.WriteLine($"{number1} + {number2} = {number1 + number2}");
-					break;
-				case "2":
-					Console.WriteLine($"{number1} - {number2} = {number1 - number2}");
-					break;
-				case "3":
-					Console.WriteLine($"{number1} * {number2} = {number1 * number2}");
-					break;
-				case "4":
-					if (number2 != 0)
-						Console.WriteLine($"{number1} / {number2} = {(double)number1 / number2}");
-					else
-						Console.WriteLine("Không thể chia cho 0!");
-					break;
-				default:
-					Console.WriteLine("Lựa chọn không hợp lệ!");
-					break;
+				switch (subChoice)
+				{
+					case "1":
+						bai2.TinhGiaiThua();
+						break;
+					case "2":
+						bai2.KiemTraNguyenTo();
+						break;
+					case "3":
+						bai2.KiemTraChanLe();
+						break;
+					case "0":
+						Console.WriteLine("Quay lại menu chính...");
+						return; // quay lại Main menu
+					default:
+						Console.WriteLine("Lựa chọn không hợp lệ!");
+						break;
+				}
 			}
 		}
 	}
