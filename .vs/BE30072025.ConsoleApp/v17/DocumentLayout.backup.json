@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|c:\\be\\be30072025.consoleapp\\be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|solutionrelative:be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|c:\\be\\be30072025.consoleapp\\be30072025.consoleapp\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|solutionrelative:be30072025.consoleapp\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,16 +26,26 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "BE30072025.ConsoleApp\\Program.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs",
-              "RelativeToolTip": "BE30072025.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs*",
+              "RelativeToolTip": "BE30072025.ConsoleApp\\Program.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T15:14:56.786Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bai1.cs",
+              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Bai1.cs",
+              "RelativeDocumentMoniker": "BE30072025.ConsoleApp\\Bai1.cs",
+              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Bai1.cs",
+              "RelativeToolTip": "BE30072025.ConsoleApp\\Bai1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T08:13:24.578Z",
+              "EditorCaption": ""
             }
           ]
         }

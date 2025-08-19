@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,9 +24,10 @@
               "RelativeDocumentMoniker": "BE30072025.ConsoleApp\\Program.cs",
               "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs",
               "RelativeToolTip": "BE30072025.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T15:14:56.786Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]
