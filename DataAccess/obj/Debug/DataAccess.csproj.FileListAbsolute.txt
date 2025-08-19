@@ -1,0 +1,9 @@
+C:\BE\BE30072025.ConsoleApp\DataAccess\bin\Debug\DataAccess.dll
+C:\BE\BE30072025.ConsoleApp\DataAccess\bin\Debug\DataAccess.pdb
+C:\BE\BE30072025.ConsoleApp\DataAccess\bin\Debug\Common.dll
+C:\BE\BE30072025.ConsoleApp\DataAccess\bin\Debug\Common.pdb
+C:\BE\BE30072025.ConsoleApp\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\BE\BE30072025.ConsoleApp\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\BE\BE30072025.ConsoleApp\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
+C:\BE\BE30072025.ConsoleApp\DataAccess\obj\Debug\DataAccess.dll
+C:\BE\BE30072025.ConsoleApp\DataAccess\obj\Debug\DataAccess.pdb
