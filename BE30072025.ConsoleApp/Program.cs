@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataAccess;
+using System;
 
 namespace BE30072025.ConsoleApp
 {
@@ -10,30 +11,43 @@ namespace BE30072025.ConsoleApp
 			DataAccess.Bai1 bai1 = new DataAccess.Bai1();
 			DataAccess.Bai2 bai2 = new DataAccess.Bai2();
 
-			while (true) // Menu chính
-			{
-				Console.WriteLine("\n===== MENU CHÍNH =====");
-				Console.WriteLine("1. Tính toán cơ bản");
-				Console.WriteLine("2. Bài toán số (giai thừa, nguyên tố, chẵn/lẻ)");
-				Console.WriteLine("0. Thoát");
-				Console.Write("Chọn chức năng: ");
-				var choice = Console.ReadLine();
+			//while (true) // Menu chính
+			//{
+			//	Console.WriteLine("\n===== MENU CHÍNH =====");
+			//	Console.WriteLine("1. Tính toán cơ bản");
+			//	Console.WriteLine("2. Bài toán số (giai thừa, nguyên tố, chẵn/lẻ)");
+			//	Console.WriteLine("0. Thoát");
+			//	Console.Write("Chọn chức năng: ");
+			//	var choice = Console.ReadLine();
 
-				switch (choice)
-				{
-					case "1":
-						bai1.Run(); 
-						break;
-					case "2":
-						SubMenu(bai2); // gọi menu con
-						break;
-					case "0":
-						Console.WriteLine("Thoát chương trình...");
-						return; // thoát hẳn
-					default:
-						Console.WriteLine("Lựa chọn không hợp lệ!");
-						break;
-				}
+			//	switch (choice)
+			//	{
+			//		case "1":
+			//			bai1.Run(); 
+			//			break;
+			//		case "2":
+			//			SubMenu(bai2); // gọi menu con
+			//			break;
+			//		case "0":
+			//			Console.WriteLine("Thoát chương trình...");
+			//			return; // thoát hẳn
+			//		default:
+			//			Console.WriteLine("Lựa chọn không hợp lệ!");
+			//			break;
+			//	}
+			//}
+			//Common.ValidateData.Chia_cho_Khong
+			try
+			{
+				DataAccess.Bai3.UserInput("Day la mot chuot troi troi la dai...");
+			}
+			catch (DataTooLong e)
+			{
+				Console.WriteLine($"Lỗi: {e.Message}");
+			}
+			catch (Exception other)
+			{
+				Console.WriteLine($"Lỗi: {other.Message}");
 			}
 		}
 

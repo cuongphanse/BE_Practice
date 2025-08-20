@@ -26,5 +26,19 @@ namespace Common
 			}
 			return true;
 		}
+		public static int Chia_cho_Khong()
+		{
+			try
+			{
+			int a = 10;
+			int b = 0;	
+				return a / b;
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine("Lỗi: " + ex.Message);
+			}
+				return 0; // Hoặc xử lý lỗi theo cách khác
+		}
 	}
 }
