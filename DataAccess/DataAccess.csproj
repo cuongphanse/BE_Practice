@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Bai1.cs" />
     <Compile Include="Bai2.cs" />
+    <Compile Include="Bai3.cs" />
+    <Compile Include="DataTooLong.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
