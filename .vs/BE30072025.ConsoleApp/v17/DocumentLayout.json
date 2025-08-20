@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\BE\\BE30072025.ConsoleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\datatoolong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\datatoolong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|c:\\be\\be30072025.consoleapp\\be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|solutionrelative:be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{103DB6BC-FDBA-429D-8CA3-77B4489A81D4}|Common\\Common.csproj|c:\\be\\be30072025.consoleapp\\common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103DB6BC-FDBA-429D-8CA3-77B4489A81D4}|Common\\Common.csproj|solutionrelative:common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|C:\\BE\\BE30072025.ConsoleApp\\dataaccess\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|C:\\BE\\BE30072025.ConsoleApp\\be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|solutionrelative:be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,62 +28,10 @@
               "RelativeDocumentMoniker": "BE30072025.ConsoleApp\\Program.cs",
               "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs",
               "RelativeToolTip": "BE30072025.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwDEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwD0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T15:14:56.786Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bai3.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Bai3.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Bai3.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Bai3.cs",
-              "RelativeToolTip": "DataAccess\\Bai3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T07:55:55.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataTooLong.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\DataTooLong.cs",
-              "RelativeDocumentMoniker": "DataAccess\\DataTooLong.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\DataTooLong.cs",
-              "RelativeToolTip": "DataAccess\\DataTooLong.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T07:53:45.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\Common\\Class1.cs",
-              "RelativeDocumentMoniker": "Common\\Class1.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\Common\\Class1.cs",
-              "RelativeToolTip": "Common\\Class1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T07:42:04.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bai2.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Bai2.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Bai2.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Bai2.cs",
-              "RelativeToolTip": "DataAccess\\Bai2.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T07:41:42.247Z",
               "EditorCaption": ""
             },
             {
@@ -108,15 +40,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Bai1.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Bai1.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Bai1.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Bai1.cs",
-              "RelativeToolTip": "DataAccess\\Bai1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Bai3.cs",
+              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Bai3.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Bai3.cs",
+              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Bai3.cs",
+              "RelativeToolTip": "DataAccess\\Bai3.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:42:35.454Z",
+              "WhenOpened": "2025-08-20T08:46:27.678Z",
               "EditorCaption": ""
             }
           ]

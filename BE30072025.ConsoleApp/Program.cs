@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using System;
+using static DataAccess.Bai3;
 
 namespace BE30072025.ConsoleApp
 {
@@ -36,19 +37,35 @@ namespace BE30072025.ConsoleApp
 			//			break;
 			//	}
 			//}
+
 			//Common.ValidateData.Chia_cho_Khong
-			try
-			{
-				DataAccess.Bai3.UserInput("Day la mot chuot troi troi la dai...");
-			}
-			catch (DataTooLong e)
-			{
-				Console.WriteLine($"Lỗi: {e.Message}");
-			}
-			catch (Exception other)
-			{
-				Console.WriteLine($"Lỗi: {other.Message}");
-			}
+
+			//try
+			//{
+			//	DataAccess.Bai3.UserInput("Day la mot chuot troi troi la dai...");
+			//}
+			//catch (DataTooLong e)
+			//{
+			//	Console.WriteLine($"Lỗi: {e.Message}");
+			//}
+			//catch (Exception other)
+			//{
+			//	Console.WriteLine($"Lỗi: {other.Message}");
+			//}
+
+			Product product = new Product();
+			product.Id = 1;
+			product.Name = "Sản phẩm A";
+			product.category = new ProductCategory(1, "Danh mục A");
+			Console.WriteLine($"ID: {product.Id}, Tên: {product.Name}, Danh mục: {product.category.Name}");
+			string result = product.Display();
+			Console.WriteLine(result);
+
+			//var trangthai = 1;
+			//if(trangthai == (int)TrangThaiSanPham.ChuaBan)
+			//{
+			//	Console.WriteLine("Sản phẩm chưa bán");
+			//}
 		}
 
 		// Menu con cho Bai2
