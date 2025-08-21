@@ -12,7 +12,7 @@ namespace DataAccess
 		{
 			Console.Write("Nhập số nguyên dương n: ");
 			var input = Console.ReadLine();
-			var isValid = Common.ValidateData.CheckValidNumber(input);
+			var isValid = Common.ValidateDataStringInput.CheckValidNumber(input);
 			if (!isValid)
 			{
 				Console.WriteLine("Số nhập vào không hợp lệ. Vui lòng nhập một số nguyên dương.");
@@ -30,7 +30,7 @@ namespace DataAccess
 			Console.Write("Nhập số cần kiểm tra: ");
 			var input = Console.ReadLine();
 
-			if (!Common.ValidateData.CheckValidNumber(input))
+			if (!Common.ValidateDataStringInput.CheckValidNumber(input))
 			{
 				Console.WriteLine("Số nhập vào không hợp lệ!");
 				return;
@@ -64,7 +64,7 @@ namespace DataAccess
 			Console.Write("Nhập số cần kiểm tra: ");
 			var input = Console.ReadLine();
 
-			if (!Common.ValidateData.CheckValidNumber(input))
+			if (!Common.ValidateDataStringInput.CheckValidNumber(input))
 			{
 				Console.WriteLine("Số nhập vào không hợp lệ!");
 				return;

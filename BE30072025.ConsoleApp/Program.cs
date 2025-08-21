@@ -9,8 +9,8 @@ namespace BE30072025.ConsoleApp
 		static void Main(string[] args)
 		{
 			Console.OutputEncoding = System.Text.Encoding.UTF8;
-			DataAccess.Bai1 bai1 = new DataAccess.Bai1();
-			DataAccess.Bai2 bai2 = new DataAccess.Bai2();
+			//DataAccess.Bai1 bai1 = new DataAccess.Bai1();
+			//DataAccess.Bai2 bai2 = new DataAccess.Bai2();
 
 			//while (true) // Menu chính
 			//{
@@ -53,19 +53,46 @@ namespace BE30072025.ConsoleApp
 			//	Console.WriteLine($"Lỗi: {other.Message}");
 			//}
 
-			Product product = new Product();
-			product.Id = 1;
-			product.Name = "Sản phẩm A";
-			product.category = new ProductCategory(1, "Danh mục A");
-			Console.WriteLine($"ID: {product.Id}, Tên: {product.Name}, Danh mục: {product.category.Name}");
-			string result = product.Display();
-			Console.WriteLine(result);
+			//Product product = new Product();
+			//product.Id = 1;
+			//product.Name = "Sản phẩm A";
+			//product.category = new ProductCategory(1, "Danh mục A");
+			//Console.WriteLine($"ID: {product.Id}, Tên: {product.Name}, Danh mục: {product.category.Name}");
+			//string result = product.Display();
+			//Console.WriteLine(result);
 
 			//var trangthai = 1;
 			//if(trangthai == (int)TrangThaiSanPham.ChuaBan)
 			//{
 			//	Console.WriteLine("Sản phẩm chưa bán");
 			//}
+
+			var employeeManager = new EmployeeManager();
+			//var result = employeeManager.EmployeeInsert("NV001", "Nguyen Van A", DateTime.Now);
+
+			//switch (result)
+			//{
+			//	case (int)EmployeeStatus.THANH_CONG:
+			//		Console.WriteLine("Thêm nhân viên thành công!");
+			//		break;
+			//	case (int)EmployeeStatus.THAT_BAI:
+			//		Console.WriteLine("Thêm nhân viên That bai");
+			//		break;
+
+			//	case (int)EmployeeStatus.TEN_NV_KHONG_HOP_LE:
+			//		Console.WriteLine("Ten nv k hop le!");
+			//		break;
+			//	case (int)EmployeeStatus.MA_NV_KHONG_HOP_LE:
+			//		Console.WriteLine("Ma nv k hop le!");
+			//		break;
+			//	case (int)EmployeeStatus.MA_NV_DA_TON_TAI:
+			//		Console.WriteLine("Da ton tai nv!");
+			//		break;
+			//}
+
+			var path = "C:\\Users\\NCPC\\Desktop\\Book_Employee.xlsx";
+			var rs = employeeManager.Employee_Insert_FromExcelFile(path);
+			Console.WriteLine(rs);
 		}
 
 		// Menu con cho Bai2
