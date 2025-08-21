@@ -1,0 +1,6 @@
+C:\BE\BE30072025.ConsoleApp\Common\bin\Debug\Common.dll
+C:\BE\BE30072025.ConsoleApp\Common\bin\Debug\Common.pdb
+C:\BE\BE30072025.ConsoleApp\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\BE\BE30072025.ConsoleApp\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\BE\BE30072025.ConsoleApp\Common\obj\Debug\Common.dll
+C:\BE\BE30072025.ConsoleApp\Common\obj\Debug\Common.pdb

@@ -1,0 +1,13 @@
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\bin\Debug\BE30072025.ConsoleApp.exe.config
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\bin\Debug\BE30072025.ConsoleApp.exe
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\bin\Debug\BE30072025.ConsoleApp.pdb
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\obj\Debug\BE30072025.ConsoleApp.csproj.AssemblyReference.cache
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\obj\Debug\BE30072025.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\obj\Debug\BE30072025.ConsoleApp.exe
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\obj\Debug\BE30072025.ConsoleApp.pdb
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\obj\Debug\BE30072025.ConsoleApp.exe.config
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\bin\Debug\Common.dll
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\bin\Debug\DataAccess.dll
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\bin\Debug\Common.pdb
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\bin\Debug\DataAccess.pdb
+C:\BE\BE30072025.ConsoleApp\BE30072025.ConsoleApp\obj\Debug\BE300720.09132447.Up2Date
