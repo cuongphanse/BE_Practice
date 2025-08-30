@@ -1,4 +1,5 @@
 ﻿using DataAccess;
+using DataAccess.Class;
 using System;
 using static DataAccess.Bai3;
 
@@ -60,41 +61,58 @@ namespace BE30072025.ConsoleApp
 			//Console.WriteLine($"ID: {product.Id}, Tên: {product.Name}, Danh mục: {product.category.Name}");
 			//string result = product.Display();
 			//Console.WriteLine(result);
-
+			//---------------------------------------------------------------------
 			//var trangthai = 1;
 			//if(trangthai == (int)TrangThaiSanPham.ChuaBan)
 			//{
 			//	Console.WriteLine("Sản phẩm chưa bán");
 			//}
-
-			var employeeManager = new EmployeeManager();
+			//---------------------------------------------------------------------
+			//var employeeManager = new EmployeeManager();
 			//var result = employeeManager.EmployeeInsert("NV001", "Nguyen Van A", DateTime.Now);
 
-			//switch (result)
-			//{
-			//	case (int)EmployeeStatus.THANH_CONG:
-			//		Console.WriteLine("Thêm nhân viên thành công!");
-			//		break;
-			//	case (int)EmployeeStatus.THAT_BAI:
-			//		Console.WriteLine("Thêm nhân viên That bai");
-			//		break;
+			//PrintResult(result);
 
-			//	case (int)EmployeeStatus.TEN_NV_KHONG_HOP_LE:
-			//		Console.WriteLine("Ten nv k hop le!");
-			//		break;
-			//	case (int)EmployeeStatus.MA_NV_KHONG_HOP_LE:
-			//		Console.WriteLine("Ma nv k hop le!");
-			//		break;
-			//	case (int)EmployeeStatus.MA_NV_DA_TON_TAI:
-			//		Console.WriteLine("Da ton tai nv!");
-			//		break;
-			//}
+			//// Thêm nhân viên 2 failed
+			//result = employeeManager.EmployeeInsert("<img", "Tran Thi B", DateTime.Now.AddDays(-10));
+			//PrintResult(result);
 
-			var path = "C:\\Users\\NCPC\\Desktop\\Book_Employee.xlsx";
-			var rs = employeeManager.Employee_Insert_FromExcelFile(path);
-			Console.WriteLine(rs);
+			//// Thêm nhân viên 3
+			//result = employeeManager.EmployeeInsert("NV003", "Le Van C", DateTime.Now.AddMonths(-1));
+			//PrintResult(result);
+
+			//// In danh sách nhân viên
+			//employeeManager.ListEmployee();
+			//-----------------------------------------------------------------
+			//var path = "C:\\Users\\NCPC\\Desktop\\Book_Employee.xlsx";
+			//var rs = employeeManager.Employee_Insert_FromExcelFile(path);
+			//Console.WriteLine(rs);
+
+			var xeBus = new Car(1, "Toyota", "Bus", "RED", 2025);
+			xeBus.Display();
+			Console.WriteLine("Cach khac lay nhan hieu {0}", xeBus.Brand);
 		}
-
+		static void PrintResult(int result)
+		{
+			switch (result)
+			{
+				case (int)EmployeeStatus.THANH_CONG:
+					Console.WriteLine("Thêm nhân viên thành công!");
+					break;
+				case (int)EmployeeStatus.THAT_BAI:
+					Console.WriteLine("Thêm nhân viên thất bại!");
+					break;
+				case (int)EmployeeStatus.TEN_NV_KHONG_HOP_LE:
+					Console.WriteLine("Tên nhân viên không hợp lệ!");
+					break;
+				case (int)EmployeeStatus.MA_NV_KHONG_HOP_LE:
+					Console.WriteLine("Mã nhân viên không hợp lệ!");
+					break;
+				case (int)EmployeeStatus.MA_NV_DA_TON_TAI:
+					Console.WriteLine("Mã nhân viên đã tồn tại!");
+					break;
+			}
+		}
 		// Menu con cho Bai2
 		static void SubMenu(DataAccess.Bai2 bai2)
 		{

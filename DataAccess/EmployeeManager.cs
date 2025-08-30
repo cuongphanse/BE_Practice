@@ -70,6 +70,14 @@ namespace DataAccess
 			}
 		}
 
+		public void ListEmployee()
+		{
+			foreach (var item in empl)
+			{
+				Console.WriteLine($"Mã nhân viên: {item.EmployeeCode}, Tên nhân viên: {item.EmployeeName}, Ngày vào công ty: {item.StartDate}");
+			}
+		}
+
 		public string Employee_Insert_FromExcelFile(string filePath)
 		{
 			var ketqua = string.Empty;

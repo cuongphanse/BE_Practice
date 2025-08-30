@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\BE\\BE30072025.ConsoleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|c:\\be\\be30072025.consoleapp\\be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|C:\\BE\\BE30072025.ConsoleApp\\be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|solutionrelative:be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\class\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|C:\\BE\\BE30072025.ConsoleApp\\dataaccess\\struct\\datetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\struct\\datetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Car.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Class\\Car.cs",
+              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Car.cs",
+              "RelativeToolTip": "DataAccess\\Class\\Car.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T09:32:30.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,23 +49,22 @@
               "RelativeDocumentMoniker": "BE30072025.ConsoleApp\\Program.cs",
               "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs",
               "RelativeToolTip": "BE30072025.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwF8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwFwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T09:05:44.993Z",
+              "WhenOpened": "2025-08-21T11:59:01.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeManager.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\EmployeeManager.cs",
-              "RelativeDocumentMoniker": "DataAccess\\EmployeeManager.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\EmployeeManager.cs",
-              "RelativeToolTip": "DataAccess\\EmployeeManager.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAASwHkAAAACAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DateTime.cs",
+              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Struct\\DateTime.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Struct\\DateTime.cs",
+              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Struct\\DateTime.cs",
+              "RelativeToolTip": "DataAccess\\Struct\\DateTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:57:30.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T11:28:46.573Z"
             }
           ]
         }

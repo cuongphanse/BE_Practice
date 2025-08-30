@@ -83,10 +83,12 @@
     <Compile Include="Bai1.cs" />
     <Compile Include="Bai2.cs" />
     <Compile Include="Bai3.cs" />
+    <Compile Include="Class\Car.cs" />
     <Compile Include="DataTooLong.cs" />
     <Compile Include="EmployeeManager.cs" />
     <Compile Include="enum\EmployeeStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Struct\DateTime.cs" />
     <Compile Include="Struct\Employeer.cs" />
   </ItemGroup>
   <ItemGroup>
