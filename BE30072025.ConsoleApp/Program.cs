@@ -9,7 +9,7 @@ namespace BE30072025.ConsoleApp
 	{
 		static void Main(string[] args)
 		{
-			Console.OutputEncoding = System.Text.Encoding.UTF8;
+			Console.OutputEncoding = System.Text.Encoding.UTF8;/////
 			//DataAccess.Bai1 bai1 = new DataAccess.Bai1();
 			//DataAccess.Bai2 bai2 = new DataAccess.Bai2();
 
