@@ -80,13 +80,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClass\Animal.cs" />
+    <Compile Include="AbstractClass\Bird.cs" />
+    <Compile Include="AbstractClass\Cow.cs" />
+    <Compile Include="AbstractClass\HinhHoc.cs" />
+    <Compile Include="AbstractClass\HinhVuong.cs" />
     <Compile Include="Bai1.cs" />
     <Compile Include="Bai2.cs" />
     <Compile Include="Bai3.cs" />
     <Compile Include="Class\Car.cs" />
+    <Compile Include="Class\Employeer_Parial.cs" />
+    <Compile Include="Class\Inheritance\MayAsus.cs" />
+    <Compile Include="Class\Inheritance\MayLenovo.cs" />
+    <Compile Include="Class\Inheritance\MayViTinh.cs" />
+    <Compile Include="Class\Person.cs" />
     <Compile Include="DataTooLong.cs" />
     <Compile Include="EmployeeManager.cs" />
     <Compile Include="enum\EmployeeStatus.cs" />
+    <Compile Include="HW_EmployerManager\Employee.cs" />
+    <Compile Include="HW_EmployerManager\Manager.cs" />
+    <Compile Include="HW_EmployerManager\Worker.cs" />
+    <Compile Include="Interface\AnimalManager.cs" />
+    <Compile Include="Interface\IAnimal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Struct\DateTime.cs" />
     <Compile Include="Struct\Employeer.cs" />
@@ -101,5 +116,6 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

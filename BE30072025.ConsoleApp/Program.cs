@@ -88,9 +88,52 @@ namespace BE30072025.ConsoleApp
 			//var rs = employeeManager.Employee_Insert_FromExcelFile(path);
 			//Console.WriteLine(rs);
 
-			var xeBus = new Car(1, "Toyota", "Bus", "RED", 2025);
-			xeBus.Display();
-			Console.WriteLine("Cach khac lay nhan hieu {0}", xeBus.Brand);
+			//var xeBus = new Car();
+			//xeBus.Id = 1;
+			//xeBus.Brand = "Toyota";
+			//xeBus.Model = "Hiace";
+			//xeBus.Color = "White";
+			//xeBus.Year = 2020;
+			//xeBus.Display();
+			//var xeCon = new Car(2, "Honda", "Civic", "Red", 2022);
+			//xeCon.Display();
+
+			//var nhanvien = new Employeer_Parial();
+			//nhanvien.DoWork();
+			//nhanvien.TakeBreak();
+
+			//var cow = new DataAccess.AbstractClass.Cow();
+			//cow.name = "bo` sữa";
+			//cow.Eat();
+			//cow.MakeSound();
+			//var bird = new DataAccess.AbstractClass.Bird();
+			//bird.name = "chim sẻ";
+			//bird.Eat();
+			//bird.MakeSound();
+
+			//var hinhvuong = new DataAccess.AbstractClass.HinhVuong(5);
+			//Console.WriteLine($"Hình vuông có cạnh {hinhvuong.Canh} có chu vi = {hinhvuong.TinhChuVi()} và diện tích = {hinhvuong.TinhDienTich()}");
+
+			//var person = new Person();
+			//Console.WriteLine($"Id : {person.GetId()}");
+			//Console.WriteLine($"Full Name : {person.GetFullName()}");
+
+			//var mayLenovo = new DataAccess.Class.Inheritance.MayLenovo();
+			//mayLenovo.TenMay = "Lenovo IdeaPad 3";
+			//mayLenovo.ChieuDai = "35 cm";
+			//mayLenovo.ChieuRong = "24 cm";
+			//mayLenovo.UpRam();
+			//var mayAsus = new DataAccess.Class.Inheritance.MayAsus();
+			//mayAsus.TenMay = "ASUS VivoBook 15";
+			//mayAsus.ChieuDai = "36 cm";
+			//mayAsus.ChieuRong = "25 cm";
+			//mayAsus.UpRam();
+
+			var manager = new DataAccess.HW_EmployerManager.Manager("Nguyen Van A", 1500, "IT");
+			var worker = new DataAccess.HW_EmployerManager.Worker("Tran Thi B", 800, "160");
+			manager.DisplayInfo();
+			worker.DisplayInfo();
+
 		}
 		static void PrintResult(int result)
 		{

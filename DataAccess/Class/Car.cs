@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,38 +8,37 @@ namespace DataAccess.Class
 {
 	public class Car
 	{
-		// Thuoc tinh
+		// field
+		//get de lay gia tri trong thuoc tinh 
+		//set de gan gia tri cho thuoc tinh
 		public int Id { get; set; }
-		public string Model { get; set; }
 		public string Brand { get; set; }
-		public string Color { get; set; }
+		public string Model { get; set; }
 		public int Year { get; set; }
-
-		// phuong thuc
+		public string Color { get; set; }
+		// constructor
+		// phuong thuoc khoi tao khong tham so
 		public Car()
 		{
-
 		}
-		public Car(int  id, string brand, string model, string color, int year)
+		// phuong thuc khoi tao co tham so
+		public Car(int id, string brand, string model, string color, int year)
 		{
 			Id = id;
-			Model = model;
 			Brand = brand;
+			Model = model;
 			Color = color;
 			Year = year;
 		}
-
+		// phuong thuc hien thi thong tin xe	
 		public void Display()
 		{
-			Console.WriteLine("Id {0}", Id);
-			Console.WriteLine("Brand {0}", Brand);
-			Console.WriteLine("Model {0}", Model);
-			Console.WriteLine("Color {0}", Color);
-			Console.WriteLine("Year {0}", Year);
+			Console.WriteLine($"Car ID: {Id}, Brand: {Brand}, Model: {Model}, Color: {Color}, Year: {Year}");
 		}
-		public int Run(int distance)
+
+		public int Run(int distant)
 		{
-			return distance;
+			return distant;
 		}
 	}
 }
