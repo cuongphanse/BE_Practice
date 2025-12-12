@@ -1,5 +1,7 @@
 ﻿using DataAccess;
 using DataAccess.Class;
+using DataAccess.Manager;
+using DataAccess.RequestData;
 using System;
 using static DataAccess.Bai3;
 
@@ -129,11 +131,50 @@ namespace BE30072025.ConsoleApp
 			//mayAsus.ChieuRong = "25 cm";
 			//mayAsus.UpRam();
 
-			var manager = new DataAccess.HW_EmployerManager.Manager("Nguyen Van A", 1500, "IT");
-			var worker = new DataAccess.HW_EmployerManager.Worker("Tran Thi B", 800, "160");
-			manager.DisplayInfo();
-			worker.DisplayInfo();
+			//var manager = new DataAccess.HW_EmployerManager.Manager("Nguyen Van A", 1500, "IT");
+			//var worker = new DataAccess.HW_EmployerManager.Worker("Tran Thi B", 800, "160");
+			//manager.DisplayInfo();
+			//worker.DisplayInfo();
 
+			var productManager = new ProductManager();
+			var requestData = new Product_GetListRequestData
+			{
+				ProductID = -1 
+			};
+			var list = productManager.Product_GetList(requestData);
+			if (list == null || list.Count < 0)
+			{
+				return;
+			}
+			foreach (var item in list)
+			{
+				Console.WriteLine($"ProductID: {item.ProductID}, ProductName: {item.ProductName}, CategoryName: {item.CategoryName}");
+			}
+
+			var result = productManager.Product_Insert(new Product_InsertRequestData
+			{
+				ProductName = "Sản phẩm C",
+				ProductImage = "123123123",
+				CategoryID = 1
+			});
+			if (result > 0)
+			{
+				Console.WriteLine("Thêm sản phẩm thành công!");
+			}
+			else
+			{
+				switch (result)
+				{
+					case -1:
+						Console.WriteLine("Thêm sản phẩm thất bại!");
+						break;
+					case -2:
+						Console.WriteLine("Tên sản phẩm đã tồn tại");
+						break;
+					default:
+						break;
+				}
+			}
 		}
 		static void PrintResult(int result)
 		{

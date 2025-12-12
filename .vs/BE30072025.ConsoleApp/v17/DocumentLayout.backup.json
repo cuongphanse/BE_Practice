@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\BE\\BE30072025.ConsoleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|C:\\BE\\BE30072025.ConsoleApp\\be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|c:\\be\\be30072025.consoleapp\\be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|solutionrelative:be30072025.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\hw_employermanager\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\hw_employermanager\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\manager\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\manager\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\hw_employermanager\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\hw_employermanager\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\hw_employermanager\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\hw_employermanager\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\class\\inheritance\\mayasus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class\\inheritance\\mayasus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\class\\inheritance\\maylenovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class\\inheritance\\maylenovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\class\\inheritance\\mayvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class\\inheritance\\mayvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|c:\\be\\be30072025.consoleapp\\dataaccess\\class\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82657B68-5451-476C-AD62-3FA781F0244B}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|c:\\be\\be30072025.consoleapp\\be30072025.consoleapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{43C186FA-368A-45EA-B588-C404B271157D}|BE30072025.ConsoleApp\\BE30072025.ConsoleApp.csproj|solutionrelative:be30072025.consoleapp\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,116 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\App.config",
+              "RelativeDocumentMoniker": "BE30072025.ConsoleApp\\App.config",
+              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\App.config",
+              "RelativeToolTip": "BE30072025.ConsoleApp\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-12T10:55:06.026Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "BE30072025.ConsoleApp\\Program.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs",
-              "RelativeToolTip": "BE30072025.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAuwIYAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\BE30072025.ConsoleApp\\Program.cs*",
+              "RelativeToolTip": "BE30072025.ConsoleApp\\Program.cs*",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAgwKYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:14:56.786Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-12-12T10:48:01.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\HW_EmployerManager\\Worker.cs",
-              "RelativeDocumentMoniker": "DataAccess\\HW_EmployerManager\\Worker.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\HW_EmployerManager\\Worker.cs",
-              "RelativeToolTip": "DataAccess\\HW_EmployerManager\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Manager\\ProductManager.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Manager\\ProductManager.cs",
+              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Manager\\ProductManager.cs",
+              "RelativeToolTip": "DataAccess\\Manager\\ProductManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwEMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:05:16.55Z",
+              "WhenOpened": "2025-12-12T10:30:26.583Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\HW_EmployerManager\\Manager.cs",
-              "RelativeDocumentMoniker": "DataAccess\\HW_EmployerManager\\Manager.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\HW_EmployerManager\\Manager.cs",
-              "RelativeToolTip": "DataAccess\\HW_EmployerManager\\Manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:02:45.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\HW_EmployerManager\\Employee.cs",
-              "RelativeDocumentMoniker": "DataAccess\\HW_EmployerManager\\Employee.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\HW_EmployerManager\\Employee.cs",
-              "RelativeToolTip": "DataAccess\\HW_EmployerManager\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:01:34.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MayAsus.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Inheritance\\MayAsus.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Class\\Inheritance\\MayAsus.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Inheritance\\MayAsus.cs",
-              "RelativeToolTip": "DataAccess\\Class\\Inheritance\\MayAsus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:47:57.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MayLenovo.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Inheritance\\MayLenovo.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Class\\Inheritance\\MayLenovo.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Inheritance\\MayLenovo.cs",
-              "RelativeToolTip": "DataAccess\\Class\\Inheritance\\MayLenovo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:45:50.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MayViTinh.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Inheritance\\MayViTinh.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Class\\Inheritance\\MayViTinh.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Inheritance\\MayViTinh.cs",
-              "RelativeToolTip": "DataAccess\\Class\\Inheritance\\MayViTinh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:44:50.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Person.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Class\\Person.cs",
-              "ToolTip": "C:\\BE\\BE30072025.ConsoleApp\\DataAccess\\Class\\Person.cs",
-              "RelativeToolTip": "DataAccess\\Class\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:31:29.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

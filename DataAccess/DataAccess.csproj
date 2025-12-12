@@ -94,15 +94,23 @@
     <Compile Include="Class\Inheritance\MayLenovo.cs" />
     <Compile Include="Class\Inheritance\MayViTinh.cs" />
     <Compile Include="Class\Person.cs" />
+    <Compile Include="Class\Product_GetListResponseData.cs" />
+    <Compile Include="Connection\GenericConnectionDatabase.cs" />
+    <Compile Include="Connection\SqlConnectionDB_Generic.cs" />
     <Compile Include="DataTooLong.cs" />
     <Compile Include="EmployeeManager.cs" />
     <Compile Include="enum\EmployeeStatus.cs" />
     <Compile Include="HW_EmployerManager\Employee.cs" />
     <Compile Include="HW_EmployerManager\Manager.cs" />
     <Compile Include="HW_EmployerManager\Worker.cs" />
-    <Compile Include="Interface\AnimalManager.cs" />
+    <Compile Include="Interface\IProductManager.cs" />
+    <Compile Include="Manager\AnimalManager.cs" />
     <Compile Include="Interface\IAnimal.cs" />
+    <Compile Include="Manager\BridManager.cs" />
+    <Compile Include="Manager\CowManager.cs" />
+    <Compile Include="Manager\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestData\Product_GetListRequestData.cs" />
     <Compile Include="Struct\DateTime.cs" />
     <Compile Include="Struct\Employeer.cs" />
   </ItemGroup>
